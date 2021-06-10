@@ -36,7 +36,8 @@ function draw() {
 
 if(cat.x - rat.x < (cat.width-rat.width)/2){
     cat.velocityX=0;
-    cat.addImage("56",edloo)
+    cat.addImage("56",edloo);
+    cat.x=300;
     cat.changeImage("56");
     rat.addAnimation("hii",ratImgg);
     rat.changeAnimation("hii");
